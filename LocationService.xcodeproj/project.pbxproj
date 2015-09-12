@@ -13,6 +13,7 @@
 		B1139F4F1BA3A74C009343F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1139F4E1BA3A74C009343F8 /* Images.xcassets */; };
 		B1139F521BA3A74C009343F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1139F501BA3A74C009343F8 /* LaunchScreen.xib */; };
 		B1139F5E1BA3A74C009343F8 /* LocationServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1139F5D1BA3A74C009343F8 /* LocationServiceTests.swift */; };
+		B1139F681BA3A772009343F8 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1139F671BA3A772009343F8 /* LocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B1139F571BA3A74C009343F8 /* LocationServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1139F5C1BA3A74C009343F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1139F5D1BA3A74C009343F8 /* LocationServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServiceTests.swift; sourceTree = "<group>"; };
+		B1139F671BA3A772009343F8 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				B1139F471BA3A74C009343F8 /* AppDelegate.swift */,
 				B1139F491BA3A74C009343F8 /* ViewController.swift */,
+				B1139F671BA3A772009343F8 /* LocationService.swift */,
 				B1139F4B1BA3A74C009343F8 /* Main.storyboard */,
 				B1139F4E1BA3A74C009343F8 /* Images.xcassets */,
 				B1139F501BA3A74C009343F8 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1139F4A1BA3A74C009343F8 /* ViewController.swift in Sources */,
+				B1139F681BA3A772009343F8 /* LocationService.swift in Sources */,
 				B1139F481BA3A74C009343F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
